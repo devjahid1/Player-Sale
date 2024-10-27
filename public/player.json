@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "rating": 89,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "United States",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lucas Mora",
+        "rating": 85,
+        "price": "$1500000",
+        "handedness": "left-hand",
+        "country": "Brazil",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Nikolai Ivanov",
+        "rating": 88,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "Russia",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kofi Mensah",
+        "rating": 87,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "Ghana",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Takumi Sato",
+        "rating": 82,
+        "price": "$1500000",
+        "handedness": "left-hand",
+        "country": "Japan",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Liam O'Reilly",
+        "rating": 90,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "Ireland",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Carlos Ruiz",
+        "rating": 86,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "Spain",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Arjun Singh",
+        "rating": 84,
+        "price": "$1500000",
+        "handedness": "left-hand",
+        "country": "India",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 9,
+        "name": "David Johnson",
+        "rating": 92,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "Canada",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Omar Fahad",
+        "rating": 83,
+        "price": "$1500000",
+        "handedness": "left-hand",
+        "country": "Egypt",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Alessandro Rossi",
+        "rating": 89,
+        "price": "$1500000",
+        "handedness": "right-hand",
+        "country": "Italy",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Pierre Dubois",
+        "rating": 91,
+        "price": "$1500000",
+        "handedness": "left-hand",
+        "country": "France",
+        "img": "https://i.postimg.cc/gjSmMRMp/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg"
+    }
+]
