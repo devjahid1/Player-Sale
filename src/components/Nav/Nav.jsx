@@ -1,9 +1,17 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { TbCoinFilled } from "react-icons/tb";
+import banner from "../../assets/bg-shadow.png"
+import banner_img from "../../assets/banner-main.png"
+import { useState } from "react";
 
 
 const Nav = () => {
+  const [coins, setCoins] = useState(0);
+
+  const handleClaimCredit = () =>{
+    setCoins(coins + 6000000);
+  }
 
     const links = <>
         <li><NavLink to='/'>Home</NavLink></li>
@@ -12,6 +20,7 @@ const Nav = () => {
         <li><NavLink to='/schedules'>Schedules</NavLink></li>
     </>
     return (
+      <div>
 <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -43,9 +52,29 @@ const Nav = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="flex gap-2"><span>0 </span>Coin<TbCoinFilled className="text-yellow-600 text-2xl"/></a>
+    <a className="flex gap-2"><span>{coins} </span>Coin<TbCoinFilled className="text-yellow-600 text-2xl"/></a>
+  </div>
+  </div>
+
+  <div
+  className="hero h-[545px] rounded-2xl bg-black"
+  style={{
+    backgroundImage: `url(${banner})`,
+  }}>
+  <div className=""></div>
+  <div className="hero-content text-neutral-content text-center">
+    <div className="">
+      <img className="ml-[130px]" src={banner_img} alt="" />
+      <p className=" mt-3 text-2xl font-bold">
+      Assemble Your Ultimate Dream 11 Cricket Team
+      </p>
+      <p className="mb-5 mt-2">Beyond Boundaries Beyond Limits</p>
+      <button onClick={handleClaimCredit} className="btn text-black bg-yellow-300 hover:bg-yellow-300">Claim Free Credit</button>
+    </div>
   </div>
 </div>
+  </div>
+
     );
 };
 
